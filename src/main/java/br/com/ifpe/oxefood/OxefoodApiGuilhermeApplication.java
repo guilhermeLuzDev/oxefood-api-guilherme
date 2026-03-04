@@ -8,6 +8,9 @@ public class OxefoodApiGuilhermeApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OxefoodApiGuilhermeApplication.class, args);
+
 	}
 
 }
+
+
