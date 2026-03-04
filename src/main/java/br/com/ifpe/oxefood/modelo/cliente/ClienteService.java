@@ -11,7 +11,7 @@ public class ClienteService {
    @Autowired
    private ClienteRepository repository;
 
-   @Transactional
+   @Transactional   
    public Cliente save(Cliente cliente) {
 
        cliente.setHabilitado(Boolean.TRUE);
